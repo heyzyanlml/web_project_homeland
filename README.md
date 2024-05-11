@@ -27,3 +27,4 @@ Gracias a este proyecto pude aplicar conocimientos vistos durante el bloque tale
 - Figma: Para pasar el diseño dado a código.
 
 Ingresa al proyecto haciendo clic aquí: :arrow_down::arrow_down:
+https://heyzyanlml.github.io/web_project_homeland/

@@ -10,6 +10,8 @@ El objetivo de este proyecto es aplicar los conocimientos acerca de las medidas 
 - 1280px
 - 768px
 - 320px
+  
+![Figma-proyecto5](https://github.com/heyzyanlml/web_project_homeland/assets/166194594/3bde7e34-14b0-4a33-b01e-3c01e770844b)
 
 Gracias a este proyecto pude aplicar conocimientos vistos durante el bloque tales como:
 - Trabajar con las especificaciones de diseño: Introducción a Figma, las diferentes etapas de creación de un producto digital.
@@ -18,7 +20,7 @@ Gracias a este proyecto pude aplicar conocimientos vistos durante el bloque tale
 - Importar fuentes a nuestro proyecto por medio de @font-face.
 - Media Queries, como una delas formas de adaptar el diseño a múltiples dispositivos.
 
-##Descripción de las tecnologías y técnicas utilizadas.
+## Descripción de las tecnologías y técnicas utilizadas.
 - CSS: Para estilizar el proyecto, agregando nuevos aprendizajes como media queries, medidas relativas, etc.
 -HTML: Para estructurar el proyecto, utilizando etiquetas semánticas y utilizando la metodología BEM.
 - Puntos de Fuga: Para ver que la página no se desbordara o "se rompiera" en diferentes resoluciones.

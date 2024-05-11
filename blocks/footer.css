@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  margin: 92px auto 24px;
+}
+
+.footer__copyright {
+  max-width: 194px;
+  height: 16px;
+
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .footer {
+    margin: 88px auto 24px;
+  }
+
+  .footer__copyright {
+    max-width: 194px;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 64px auto 24px;
+  }
+
+  .footer__copyright {
+    max-width: 194px;
+    height: 14px;
+
+    line-height: 14px;
+  }
+}

@@ -1,0 +1,137 @@
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__title {
+  max-width: 830px;
+  height: 173.92px;
+
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+
+  margin-top: 92px;
+
+}
+
+.intro__quote-text {
+  max-width: 738px;
+  height: 135.66px;
+
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 39.98px;
+}
+
+.intro__quote-author {
+  max-width: 732px;
+  height: 33.91px;
+
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 10px;
+  text-align: end;
+}
+
+.intro__text {
+  max-width: 722px;
+  height: 181.54px;
+
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  margin-top: 31.99px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .intro {
+    width: 707px;
+    align-items: center;
+    margin: 0 auto ;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    height: 147px;
+
+    font-size: 45px;
+    line-height: 49px;
+
+    margin-top: 90px;
+
+  }
+
+  .intro__quote-text {
+    width: 720px;
+    height: 136px;
+
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+  }
+
+  .intro__quote-author {
+    max-width: 720px;
+    height: 34px;
+    margin-top: 0;
+    align-self: flex-end;
+  }
+
+  .intro__text {
+    max-width: 720px;
+    height: 182px;
+
+    margin-top: 32px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: 288px;
+    align-items: center;
+    margin: 0 auto ;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    height: 175px;
+
+    font-size: 32px;
+    line-height: 35px;
+
+    margin-top: 64px;
+
+  }
+
+  .intro__quote-text {
+    max-width: 288px;
+    height: 300px;
+
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  .intro__quote-author {
+    max-width: 288px;
+    height: 34px;
+    align-self: flex-end;
+  }
+
+  .intro__text {
+    max-width: 288px;
+    height: 442px;
+
+    margin-top: 32px;
+  }
+}
+

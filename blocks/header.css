@@ -3,12 +3,12 @@
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
+
+  max-width: 984px;
 }
 
 .header__title {
   max-width: 720px;
-  height: 200px;
-
 
   font-family: "Inter";
   font-size: 96px;
@@ -20,7 +20,6 @@
 
 .header__subtitle {
   max-width: 720px;
-  height: 72px;
 
   font-family: "Inter";
   font-size: 30px;
@@ -29,7 +28,6 @@
 
   text-align: center;
   margin: 0 auto 64px;
-
 }
 
 .header__image {
@@ -38,10 +36,9 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__title {
     max-width: 530px;
-    height: 158px;
 
     font-size: 75px;
     line-height: 79px;
@@ -51,20 +48,14 @@
 
   .header__subtitle {
     max-width: 720px;
-    height: 72px;
-
-    font-size: 30px;
-    line-height: 36px;
 
     margin: 0 auto 30px;
-
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .header__title {
     max-width: 228px;
-    height: 88px;
 
     font-size: 40px;
     line-height: 44px;
@@ -74,7 +65,6 @@
 
   .header__subtitle {
     max-width: 288px;
-    height: 40px;
 
     font-size: 16px;
     line-height: 20px;
